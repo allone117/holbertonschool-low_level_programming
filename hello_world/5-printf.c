@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *Usando printf
- * *
+ * *Program returnig to 0
  */
 
 int main(void)
