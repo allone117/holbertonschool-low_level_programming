@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- *
- **Starting to fly
- */
+* main - entry point
+** Return: program should end with value 0
+*/
+
 int main(void)
 {
   puts("\"Programing is like building a multilingual puzzle");
