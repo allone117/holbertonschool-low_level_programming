@@ -2,7 +2,7 @@
 /**
  *usando printf
  * *
- *u/
+ */
 
 int main(void)
 {
