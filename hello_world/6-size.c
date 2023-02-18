@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - Prints the size of types 
+* main -Prints the size of types 
 * computer it is compile and run on..
 * Return: program return to 0.
 */
