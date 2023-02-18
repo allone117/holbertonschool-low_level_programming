@@ -1,9 +1,9 @@
 #include <stdio.h>
 /*
-*main-entry point
+*main-programm
 *Return: program return to 0.
 */
-int main(void)
+	int main(void)
 {
 printf("Size of char: %d byte(s)\n", sizeof(char));
 printf("Size of int: %d byte(s)\n", sizeof(int));
