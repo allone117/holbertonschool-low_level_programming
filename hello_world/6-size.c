@@ -2,6 +2,10 @@
 /**
  * main - A programm that prints the size of computer types.
  * Compile and run on...
+ * Return: program#include <stdio.h>
+/**
+ * main - A programm that prints the size of computer types.
+ * Compile and run on...
  * Return: programm return to 0.
  */
 int main(void)
