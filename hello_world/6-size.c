@@ -4,7 +4,7 @@
  * the computer it is compile and run on..
  * Return: program return to 0.
  */
-
+int main(void)
 {
     printf("Size of char: %d byte\n", sizeof(char));
     printf("Size of int: %d bytes\n", sizeof(int));
