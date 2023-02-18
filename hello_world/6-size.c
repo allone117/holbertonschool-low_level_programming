@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
-*main-Prints the size of types 
-*computer it is compile and run on..
+*main-Prints the size of types.
+*computer it is compile and run on.
 *Return: program return to 0.
 */
 int main(void)
