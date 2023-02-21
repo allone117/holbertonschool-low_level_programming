@@ -1,7 +1,7 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * main -  print_alhabet
- * Return: Always 0.
+ * main -  Print the alphabet
+ * Return: Always (Success)
  */
 
 int main(void)
@@ -12,4 +12,5 @@ int main(void)
 	putchar(c);
 	putchar('\n');
 	return (0);
+
 }
