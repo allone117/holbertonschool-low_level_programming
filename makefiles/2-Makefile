@@ -1,4 +1,5 @@
-CC = gcc main.o school.o -o school
+CC = gcc -o school
 SRC = main.c school.c
-all:  $(SRC) 
+OBJ = school.o main.o
+all:  $(SRC) $(OBJ) 
 	$(CC) 
