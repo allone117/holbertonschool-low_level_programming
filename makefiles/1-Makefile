@@ -1,13 +1,5 @@
 #second task
 
-all: main.c school.c
-	gcc main.c school.c -o school
-
-school: main.c school.c
-	gcc -c main.c
-
-cc: main.c school.c
-	gcc -c main.c
-
-src: main.c school.c
-	gcc -c main.c
+cc = gcc
+SRC = school.c main.c
+all: cc SRC
