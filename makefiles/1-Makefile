@@ -1,5 +1,5 @@
 #second task
 
-cc = gcc
-SRC = school.c main.c
-all: cc SRC
+CC = gcc main.c school.c -o school
+SRC = main.c school.c
+
