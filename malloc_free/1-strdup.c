@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
 
@@ -11,22 +10,27 @@
 char *_strdup(char *str)
 {
 	char *dub;
-	int len;
-	int i;
+	int a = 0, s = 1;
 
 	if (str == NULL)
 		return (NULL);
 
-	len = strlen (str) + 1
-		dup = malloc(len)
+	while (str[s])
+	{
+		s++;
+	}
 
-		if (dup == NULL)
-			return (NULL)
+	dub = malloc((sizeof(char) * s) + 1);
 
-				for (i = 0; i < len; i++)
-				{
-					dup[i] = str[i]
-				}
-	dup[len] = '\0'
-		return (dub);
+	if (dub == NULL)
+		return (NULL);
+
+	while (a < i)
+	{
+		dub[a] = str[a];
+		a++;
+	}
+
+	dub[a] = '\0';
+	return (dub);
 }
